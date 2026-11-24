@@ -21,3 +21,6 @@ Biblioteca estática de materiales interactivos para ESO y Bachillerato. Primera
 La portada se actualiza al añadir una entrada al catálogo. No hay dependencias externas, cuentas ni servidor. Los ejercicios de la primera lección conservan su funcionamiento original; no se almacena el progreso de forma permanente.
 
 © Academia Teseracto. Material educativo de la academia.
+
+
+V3: leccion autocontenida por bloques de consulta y 14 ejercicios originales con soluciones razonadas.

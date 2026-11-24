@@ -7,7 +7,7 @@ window.TEMAS = [
     etapas: ["ESO", "Bachillerato"],
     nivel: "Fundamentos y repaso",
     descripcion: "De los primeros puntos al vértice, la simetría, los cortes, el dominio y el recorrido. Aprende cada operación sin saltos.",
-    etiquetas: ["48 pasos guiados", "14 ejercicios", "Laboratorio gráfico"],
+    etiquetas: ["77 pasos guiados", "14 ejercicios", "Laboratorio gráfico"],
     ruta: "temas/funciones/parabolas.html",
     icono: "parabola"
   }
