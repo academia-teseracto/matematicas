@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="176" viewBox="0 0 720 176">
+  <title>Teseracto — horizontal con descriptor — color</title>
+  <desc>Identidad visual de Academia Teseracto. Geometría vectorial nativa, sin calco automático.</desc>
+  
+  <g id="simbolo-teseracto" transform="translate(12 12) scale(1.0)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="6">
+    <path id="cuadrado-posterior" d="M48 6H140V98H48Z" stroke="#172554"/>
+    <path id="cuadrado-anterior" d="M6 48H98V140H6Z" stroke="#172554"/>
+    <path id="conexiones" d="M6 48L48 6M98 48L140 6M98 140L140 98M6 140L48 98" stroke="#172554"/>
+    <path id="acento-diagonal-superior" d="M6 48L48 6" stroke="#5E55D8"/>
+    <path id="acento-horizontal" d="M6 48H98" stroke="#5E55D8"/>
+    <path id="acento-diagonal-inferior" d="M98 140L140 98" stroke="#5E55D8"/>
+  </g>
+  <text id="nombre-teseracto" x="450" y="88" text-anchor="middle"
+        font-family="URW Gothic, DejaVu Sans, sans-serif" font-size="70" font-weight="600"
+        letter-spacing="1.3" fill="#172554">TESERACTO</text>
+  <text id="descriptor" x="450" y="132" text-anchor="middle"
+        font-family="URW Gothic, DejaVu Sans, sans-serif" font-size="15.5" font-weight="500"
+        letter-spacing="4.6" fill="#697184">ACADEMIA DE APOYO ESCOLAR</text>
+</svg>

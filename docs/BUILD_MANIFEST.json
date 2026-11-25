@@ -1,0 +1,156 @@
+{
+  "project": "Academia Teseracto / Portal Matemáticas",
+  "version": "1.1.0",
+  "release_date": "2026-11-25",
+  "requires_existing_repository_files": [
+    "temas/funciones/parabolas.html",
+    "assets/logo.svg"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 54,
+      "sha256": "eea50587bdbf955162911782abec63be9ff4746ab1bb683312e0cd321fff2936"
+    },
+    {
+      "path": ".nojekyll",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "size": 373,
+      "sha256": "23c333e1a4674ac4b208c0864aca765110f3499d29330ff9edff9f738389a5be"
+    },
+    {
+      "path": "README.md",
+      "size": 7261,
+      "sha256": "fafa1b8c3ed113c15946caf5cdf7c67686b9d6337f8eb15430a277823c8e20ce"
+    },
+    {
+      "path": "assets/app.js",
+      "size": 54990,
+      "sha256": "aa9e80013fe740940561ee5830790ce5ca139f9c755e05f3932cc8ba0adb3bab"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "size": 1693,
+      "sha256": "703a54e794215842b4ebae0fd64b11f36d24b6b1366186a2ec6dd1c7bc9d3517"
+    },
+    {
+      "path": "assets/icono-192.png",
+      "size": 2625,
+      "sha256": "434186c7ea4fa6670c542a9eac67dba43cf79c8adaccec527b5be9de77b2db50"
+    },
+    {
+      "path": "assets/icono-512.png",
+      "size": 6485,
+      "sha256": "790b1768fedd899883ebf19c573d4c42f2d60c2da1af955ff694c00ead87363a"
+    },
+    {
+      "path": "assets/logo-teseracto-inverso.svg",
+      "size": 1397,
+      "sha256": "9c567e7af455680058611bd2f46f83089c40f7430182ce1ec92be9cafdec57eb"
+    },
+    {
+      "path": "assets/logo-teseracto.svg",
+      "size": 1389,
+      "sha256": "9ef5e5d3df3f37efa0b8a3def42f58848286d91969fb5d6d78ea85410ab3110c"
+    },
+    {
+      "path": "assets/styles.css",
+      "size": 18230,
+      "sha256": "ac75c2ef7b47813308a8a7084b24cf13f645780972442771412626c217fd77d5"
+    },
+    {
+      "path": "data/catalog.js",
+      "size": 27895,
+      "sha256": "23e7ab69785dc073eb6b2bcad81a6a603eb5c7a25dba6d32c40eba13d2297f5b"
+    },
+    {
+      "path": "data/catalog.json",
+      "size": 37808,
+      "sha256": "e1d23176130e572ff2c4c68bde51f2e97becc1ac12f1fa6311c182217d2d4225"
+    },
+    {
+      "path": "data/practice.js",
+      "size": 13784,
+      "sha256": "8e23cc54251709dd43db565984345a95d33c154555ca99f6212bf74dfcd19c8c"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "size": 1199,
+      "sha256": "c3ff187f4752d506868a90cbc8d2d6a1cf8d76d34ccd71c12fe908deffda013e"
+    },
+    {
+      "path": "docs/GUIA_DE_AMPLIACION.md",
+      "size": 4367,
+      "sha256": "5ebfd50b682839ab3a9ee6899d063fc460b29d98ddb5589eb276b17efdc4f705"
+    },
+    {
+      "path": "docs/TRAZABILIDAD_Y_PENDIENTES.md",
+      "size": 3744,
+      "sha256": "c1bd3c3be960aba109d1263df94c647610a0b2e2a46433b53c8db125bbe63fc2"
+    },
+    {
+      "path": "index.html",
+      "size": 3325,
+      "sha256": "6d301f624946cdc83446fdc1825b9072a386afcb829dbc7e55d6bb9eef0381ca"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "size": 413,
+      "sha256": "b99cf8f93912f5eb718851500009bffe03cfe0c82bfa2f13df2cc206de1375a3"
+    },
+    {
+      "path": "materiales/01_Cuaderno_Fracciones_Alumno.pdf",
+      "size": 55106,
+      "sha256": "977bcb5303ef0d940313fab40511aba0825404729a73d23177cefa7387c17009"
+    },
+    {
+      "path": "materiales/02_Solucionario_Fracciones_Docente.pdf",
+      "size": 51056,
+      "sha256": "4fcd4d3f93d222370746fddb2a24d3f5c456bfdcf4fd5ec5ac84f36f4d89fc05"
+    },
+    {
+      "path": "materiales/03_Guia_MAER_3_Clases_Fracciones.pdf",
+      "size": 52567,
+      "sha256": "ab9ae73c2e438012ddaeee293b8edd60d7c732b677f24455ec3b3819cd0c5277"
+    },
+    {
+      "path": "materiales/04_Diagnostico_Fracciones_D1.pdf",
+      "size": 49673,
+      "sha256": "0cca12cbec227314b268ba1fb825c0d1c55a8c5cb77c8b3a94e237b67c469e74"
+    },
+    {
+      "path": "materiales/LEEME_COMBO_MAER.md",
+      "size": 1148,
+      "sha256": "6ffba30586a13a2c329a558b560242043eadd21b8436cae90d6b7ad0b3e062e7"
+    },
+    {
+      "path": "tests/test_generadores.cjs",
+      "size": 1364,
+      "sha256": "592cb505b052466e8abb1cd997e8dc30dfe3529988b064ac7403a3c1391c1f88"
+    },
+    {
+      "path": "tests/test_navegacion_v11.py",
+      "size": 3588,
+      "sha256": "563a057a1618c1d1946ed1ad90d2a6b179c302566ed1f9adba848f04b59f1fe8"
+    },
+    {
+      "path": "tests/test_web.py",
+      "size": 3002,
+      "sha256": "dfb9c9ae5fc94e636cd4a265eaef3cebea0d1ad3444575e8e7acd959d05f988d"
+    },
+    {
+      "path": "tools/generar_catalogo.py",
+      "size": 24499,
+      "sha256": "b44f81b676331119db06bd1beae32bd589d48e8e0252c9f5a66c361c11d47ffe"
+    },
+    {
+      "path": "tools/generar_combo_maer.py",
+      "size": 19234,
+      "sha256": "8bb2eeff257a40bab3a464bc5d83109bcd8041bcd97a45bc50f70abc85b69a23"
+    }
+  ]
+}

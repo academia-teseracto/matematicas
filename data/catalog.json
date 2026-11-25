@@ -1,0 +1,1166 @@
+{
+  "version": "1.1.0",
+  "published": "2026-11-25",
+  "method": "Academia Teseracto · enfoque MAER",
+  "stages": [
+    {
+      "id": "primaria",
+      "label": "Primaria",
+      "grades": [
+        "5P",
+        "6P"
+      ]
+    },
+    {
+      "id": "eso",
+      "label": "ESO",
+      "grades": [
+        "1E",
+        "2E",
+        "3E",
+        "4E"
+      ]
+    },
+    {
+      "id": "bach",
+      "label": "Bachillerato",
+      "grades": [
+        "1B",
+        "2B"
+      ]
+    }
+  ],
+  "courses": {
+    "5P": "5.º Primaria",
+    "6P": "6.º Primaria",
+    "1E": "1.º ESO",
+    "2E": "2.º ESO",
+    "3E": "3.º ESO",
+    "4E": "4.º ESO",
+    "1B": "1.º Bachillerato",
+    "2B": "2.º Bachillerato"
+  },
+  "modules": [
+    {
+      "id": "recta-fracciones",
+      "title": "Fracciones en la recta numérica",
+      "area": "Números",
+      "grades": [
+        "5P",
+        "6P",
+        "1E"
+      ],
+      "summary": "Una fracción nombra cuántas partes iguales tomamos de una unidad. También puede ser mayor que 1.",
+      "why": "La recta muestra que una fracción es un número, no dos números aislados.",
+      "steps": [
+        "Identifica el tramo entre 0 y 1.",
+        "Divide esa unidad en tantas partes iguales como indica el denominador.",
+        "Cuenta desde 0 tantas partes como indica el numerador.",
+        "Si el numerador supera al denominador, continúa más allá del 1."
+      ],
+      "examples": [
+        {
+          "q": "Sitúa 3/4 entre 0 y 1.",
+          "work": "Divide la unidad en 4 intervalos iguales y avanza 3 desde cero.",
+          "answer": "En el punto 0,75."
+        },
+        {
+          "q": "Sitúa 7/4.",
+          "work": "Avanza 7 cuartos: 4/4 + 3/4.",
+          "answer": "1 y 3/4, entre 1 y 2."
+        }
+      ],
+      "trap": "Dividir el segmento en 3 trozos cuando el denominador es 4. Los extremos se cuentan como puntos, no como tramos.",
+      "tip": "Para comprobar, piensa: ¿la fracción es menor, igual o mayor que 1?",
+      "visual": "fraction-line",
+      "generator": "fractionline",
+      "strong": [],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "fracciones-equivalentes",
+      "title": "Fracciones equivalentes",
+      "area": "Números",
+      "grades": [
+        "5P",
+        "6P",
+        "1E",
+        "2E"
+      ],
+      "summary": "Dos fracciones son equivalentes cuando representan el mismo valor, aunque tengan números diferentes.",
+      "why": "Necesitamos equivalencias para comparar y sumar fracciones con denominadores distintos.",
+      "steps": [
+        "Multiplica numerador y denominador por el mismo número.",
+        "También puedes dividir ambos por un divisor común.",
+        "Comprueba multiplicando en cruz: a/b = c/d si a·d = b·c.",
+        "Simplifica hasta que no haya divisor común mayor que 1."
+      ],
+      "examples": [
+        {
+          "q": "¿2/3 y 6/9 representan lo mismo?",
+          "work": "2×3=6 y 3×3=9; además 2×9=3×6=18.",
+          "answer": "Sí, son equivalentes."
+        },
+        {
+          "q": "Simplifica 18/24.",
+          "work": "Ambos son divisibles entre 6: 18÷6=3 y 24÷6=4.",
+          "answer": "3/4."
+        }
+      ],
+      "trap": "Multiplicar solo el numerador (2/3 → 4/3) cambia el valor de la fracción.",
+      "tip": "Imagina dos barras iguales divididas en 3 y 6 partes: colorear 2/3 es lo mismo que colorear 4/6.",
+      "visual": "fractions",
+      "generator": "equivalence",
+      "strong": [
+        "recta-fracciones"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "comparar-fracciones",
+      "title": "Comparación y orden",
+      "area": "Números",
+      "grades": [
+        "5P",
+        "6P",
+        "1E",
+        "2E"
+      ],
+      "summary": "Comparar fracciones significa decidir cuál representa más de la misma unidad.",
+      "why": "Permite ordenar cantidades sin depender de dibujos o calculadora.",
+      "steps": [
+        "Si los denominadores son iguales, compara numeradores.",
+        "Si los numeradores son iguales y positivos, el menor denominador da partes mayores.",
+        "En el resto, utiliza denominador común o productos cruzados.",
+        "Escribe <, > o = y comprueba con una estimación."
+      ],
+      "examples": [
+        {
+          "q": "Compara 3/4 y 5/8.",
+          "work": "3/4=6/8, y 6/8 es mayor que 5/8.",
+          "answer": "3/4 > 5/8."
+        },
+        {
+          "q": "Compara 2/3 y 4/6.",
+          "work": "2×6=12 y 4×3=12.",
+          "answer": "=; son equivalentes."
+        }
+      ],
+      "trap": "Pensar que 1/8 es mayor que 1/4 porque 8 es más grande. En realidad, los octavos son trozos más pequeños.",
+      "tip": "Con dos fracciones positivas a/b y c/d puedes comparar a·d con c·b.",
+      "visual": "fractions",
+      "generator": "compare",
+      "strong": [
+        "fracciones-equivalentes"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "sumar-restar-fracciones",
+      "title": "Suma y resta de fracciones",
+      "area": "Números",
+      "grades": [
+        "5P",
+        "6P",
+        "1E",
+        "2E"
+      ],
+      "summary": "Solo se suman o restan directamente numeradores si las fracciones tienen el mismo denominador.",
+      "why": "Es la base de ecuaciones con fracciones, medidas y proporciones.",
+      "steps": [
+        "Busca un denominador común (mejor, el mínimo común múltiplo).",
+        "Reescribe cada fracción de forma equivalente.",
+        "Suma o resta los numeradores; deja el denominador común.",
+        "Simplifica, comprueba el signo y estima si el resultado tiene sentido."
+      ],
+      "examples": [
+        {
+          "q": "Calcula 1/2 + 1/3.",
+          "work": "Mínimo común denominador: 6. 1/2=3/6 y 1/3=2/6. 3/6+2/6=5/6.",
+          "answer": "5/6."
+        },
+        {
+          "q": "Calcula 3/4 − 1/6.",
+          "work": "m.c.m.(4,6)=12. 9/12−2/12=7/12.",
+          "answer": "7/12."
+        }
+      ],
+      "trap": "Sumar también los denominadores: 1/2+1/3 NO es 2/5.",
+      "tip": "Cuando uses la calculadora, convierte a decimal solo para comprobar, no para sustituir el razonamiento.",
+      "visual": "fraction-ops",
+      "generator": "fracadd",
+      "strong": [
+        "fracciones-equivalentes",
+        "comparar-fracciones"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "multiplicar-fracciones",
+      "title": "Producto de fracciones",
+      "area": "Números",
+      "grades": [
+        "5P",
+        "6P",
+        "1E",
+        "2E"
+      ],
+      "summary": "Multiplicar por una fracción es tomar una parte de otra cantidad.",
+      "why": "Permite resolver porcentajes y escalas. Por ejemplo, 2/3 de 3/4 es 1/2.",
+      "steps": [
+        "Multiplica numeradores entre sí.",
+        "Multiplica denominadores entre sí.",
+        "Simplifica el resultado.",
+        "Comprueba si multiplicar por una fracción menor que 1 reduce la cantidad positiva."
+      ],
+      "examples": [
+        {
+          "q": "2/3 × 3/4",
+          "work": "Numerador: 2×3=6; denominador: 3×4=12; simplifica 6/12.",
+          "answer": "1/2."
+        },
+        {
+          "q": "1/2 de 18",
+          "work": "Tomar la mitad equivale a 18×1/2.",
+          "answer": "9."
+        }
+      ],
+      "trap": "Multiplicar en cruz; eso puede servir para comparar, pero no para multiplicar fracciones.",
+      "tip": "Antes de multiplicar puedes simplificar factores cruzados para trabajar con números pequeños.",
+      "visual": "fraction-ops",
+      "generator": "fracmul",
+      "strong": [
+        "fracciones-equivalentes"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "dividir-fracciones",
+      "title": "División de fracciones",
+      "area": "Números",
+      "grades": [
+        "6P",
+        "1E",
+        "2E"
+      ],
+      "summary": "Dividir por una fracción no nula equivale a multiplicar por su inversa.",
+      "why": "Explica cuántos grupos de una medida caben en otra y reaparece en álgebra.",
+      "steps": [
+        "Conserva la primera fracción.",
+        "Invierte el numerador y denominador de la segunda.",
+        "Multiplica como en un producto de fracciones.",
+        "Simplifica y comprueba que el divisor no sea cero."
+      ],
+      "examples": [
+        {
+          "q": "3/4 ÷ 1/2",
+          "work": "Multiplica 3/4 × 2/1 = 6/4.",
+          "answer": "3/2."
+        },
+        {
+          "q": "¿Cuántos medios hay en 3?",
+          "work": "3 ÷ 1/2 = 3 × 2.",
+          "answer": "6 medios."
+        }
+      ],
+      "trap": "Invertir las dos fracciones o dividir numerador entre numerador sin justificación.",
+      "tip": "Piensa: dividir por 1/2 da el doble, porque hay dos mitades en cada unidad.",
+      "visual": "fraction-ops",
+      "generator": "fracdiv",
+      "strong": [
+        "multiplicar-fracciones"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "enteros-signos",
+      "title": "Números enteros y signos",
+      "area": "Números",
+      "grades": [
+        "6P",
+        "1E",
+        "2E",
+        "3E"
+      ],
+      "summary": "Los enteros incluyen negativos, cero y positivos; los signos indican posición y operaciones.",
+      "why": "Evita errores en ecuaciones, coordenadas y funciones.",
+      "steps": [
+        "Representa negativos a la izquierda del 0.",
+        "Para sumar signos distintos, compara valores absolutos.",
+        "Restar equivale a sumar el opuesto.",
+        "En productos y divisiones, signos iguales dan positivo y distintos negativo."
+      ],
+      "examples": [
+        {
+          "q": "−4 + 7",
+          "work": "Desde −4 avanza 7 unidades a la derecha.",
+          "answer": "3."
+        },
+        {
+          "q": "−3 × (−5)",
+          "work": "Dos factores negativos producen positivo: 3×5.",
+          "answer": "15."
+        }
+      ],
+      "trap": "Confundir −(−5)=5 con −5, o aplicar la regla de signos de productos a las sumas.",
+      "tip": "Para una suma de enteros, una recta numérica suele ser más clara que memorizar una regla mal entendida.",
+      "visual": "number-line",
+      "generator": "integers",
+      "strong": [
+        "recta-fracciones"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "potencias",
+      "title": "Potencias y raíces: inicio",
+      "area": "Números",
+      "grades": [
+        "5P",
+        "6P",
+        "1E",
+        "2E",
+        "3E"
+      ],
+      "summary": "Una potencia repite una multiplicación del mismo factor; una raíz cuadrada deshace un cuadrado perfecto.",
+      "why": "Aparecen en áreas, escalas, notación científica, polinomios y parábolas.",
+      "steps": [
+        "Lee base y exponente: 3⁴ significa cuatro factores 3.",
+        "No confundas 3⁴ con 3×4.",
+        "Recuerda que (−2)²=4 y −2²=−4.",
+        "Para √25 busca el número no negativo cuyo cuadrado es 25."
+      ],
+      "examples": [
+        {
+          "q": "3⁴",
+          "work": "3×3×3×3.",
+          "answer": "81."
+        },
+        {
+          "q": "√49",
+          "work": "7×7=49 y √ nombra la raíz principal.",
+          "answer": "7."
+        }
+      ],
+      "trap": "Leer 2⁶ como 2×6 (12) en lugar de 2×2×2×2×2×2 (64).",
+      "tip": "Expande una potencia pequeña con sus factores antes de usar una regla.",
+      "visual": "squares",
+      "generator": "powers",
+      "strong": [
+        "enteros-signos"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "porcentajes",
+      "title": "Porcentajes de una cantidad",
+      "area": "Números",
+      "grades": [
+        "5P",
+        "6P",
+        "1E",
+        "2E",
+        "3E"
+      ],
+      "summary": "Un porcentaje es una fracción de cien: 25 % = 25/100 = 1/4.",
+      "why": "Sirve para descuentos, impuestos, estadísticas y aumentos.",
+      "steps": [
+        "Convierte el porcentaje en fracción o decimal.",
+        "Multiplica por la cantidad de referencia.",
+        "Si piden precio final con descuento, resta lo calculado.",
+        "Comprueba: el 10 % de 80 es 8; el 50 % es 40."
+      ],
+      "examples": [
+        {
+          "q": "25 % de 80",
+          "work": "25/100 × 80 = 1/4 × 80.",
+          "answer": "20."
+        },
+        {
+          "q": "Un descuento del 15 % sobre 60 €",
+          "work": "Descuento: 0,15×60=9; precio: 60−9.",
+          "answer": "51 €."
+        }
+      ],
+      "trap": "Calcular el 20 % de una cantidad y tomarlo directamente como precio final tras un descuento.",
+      "tip": "El 1 % es dividir entre 100; el 10 %, dividir entre 10.",
+      "visual": "percent",
+      "generator": "percent",
+      "strong": [
+        "multiplicar-fracciones"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "proporcionalidad",
+      "title": "Proporcionalidad y regla de tres",
+      "area": "Números",
+      "grades": [
+        "6P",
+        "1E",
+        "2E",
+        "3E"
+      ],
+      "summary": "Dos magnitudes son directamente proporcionales si se multiplican por el mismo factor.",
+      "why": "Permite resolver recetas, escalas, precios y velocidades sencillas.",
+      "steps": [
+        "Comprueba que las magnitudes sean realmente proporcionales.",
+        "Escribe parejas de valores con sus unidades.",
+        "Halla el valor unitario o el factor de escala.",
+        "Calcula y verifica si la respuesta aumenta o disminuye de forma coherente."
+      ],
+      "examples": [
+        {
+          "q": "3 cuadernos cuestan 6 €. ¿Cuánto cuestan 5?",
+          "work": "Cada cuaderno cuesta 6÷3=2 €. Por cinco: 5×2.",
+          "answer": "10 €."
+        },
+        {
+          "q": "4 personas necesitan 12 vasos. ¿Y 6 personas?",
+          "work": "12÷4=3 vasos/persona; 6×3.",
+          "answer": "18 vasos."
+        }
+      ],
+      "trap": "Usar regla de tres directa para una relación inversa sin comprobar el contexto.",
+      "tip": "El método del valor unitario suele ser más fácil que una fórmula memorizada.",
+      "visual": "bars",
+      "generator": "proportion",
+      "strong": [
+        "fracciones-equivalentes",
+        "porcentajes"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "coordenadas",
+      "title": "Plano cartesiano y puntos",
+      "area": "Funciones y gráficas",
+      "grades": [
+        "6P",
+        "1E",
+        "2E",
+        "3E",
+        "4E",
+        "1B"
+      ],
+      "summary": "Un punto se escribe (x,y): primero te desplazas horizontalmente y después verticalmente.",
+      "why": "Es el lenguaje gráfico de rectas, parábolas, geometría analítica y estadística.",
+      "steps": [
+        "Dibuja dos ejes perpendiculares y marca el origen (0,0).",
+        "Lee la primera coordenada x (derecha +, izquierda −).",
+        "Lee la segunda y (arriba +, abajo −).",
+        "Comprueba los puntos sobre los ejes: allí una coordenada es 0."
+      ],
+      "examples": [
+        {
+          "q": "Sitúa A(−2,3).",
+          "work": "Desde el origen: 2 a la izquierda y 3 hacia arriba.",
+          "answer": "Cuadrante II."
+        },
+        {
+          "q": "¿Dónde está C(0,2)?",
+          "work": "x=0: no te mueves horizontalmente; subes dos.",
+          "answer": "En el eje Y."
+        }
+      ],
+      "trap": "Intercambiar x e y; el punto (3,−1) no es el punto (−1,3).",
+      "tip": "Repite siempre: primero x, después y.",
+      "visual": "coordinates",
+      "generator": "coords",
+      "strong": [
+        "enteros-signos"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "traslaciones",
+      "title": "Traslaciones de figuras",
+      "area": "Geometría",
+      "grades": [
+        "6P",
+        "1E",
+        "2E"
+      ],
+      "summary": "Una traslación mueve todos los puntos la misma distancia y sentido sin girar la figura.",
+      "why": "Ayuda a comprender vectores y transformaciones sin perder la forma.",
+      "steps": [
+        "Dibuja y nombra los vértices A, B y C.",
+        "Identifica el desplazamiento horizontal y vertical.",
+        "Mueve CADA vértice desde su posición original.",
+        "Une los puntos nuevos.",
+        "Comprueba que AA’, BB’ y CC’ son flechas iguales y paralelas."
+      ],
+      "examples": [
+        {
+          "q": "A(1,2) se desplaza +3 en x y −1 en y.",
+          "work": "A’=(1+3,2−1).",
+          "answer": "A’(4,1)."
+        },
+        {
+          "q": "Un triángulo se traslada 4 unidades.",
+          "work": "Todos sus lados y ángulos se conservan.",
+          "answer": "Misma forma y tamaño."
+        }
+      ],
+      "trap": "Mover B desde A’ o cambiar la longitud del desplazamiento a mitad de la construcción.",
+      "tip": "Dibuja flechas entre cada punto y su imagen para revisar.",
+      "visual": "transforms",
+      "generator": "translate",
+      "strong": [
+        "coordenadas"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "giros",
+      "title": "Rotaciones o giros",
+      "area": "Geometría",
+      "grades": [
+        "6P",
+        "1E",
+        "2E"
+      ],
+      "summary": "Un giro cambia la orientación alrededor de un centro sin alterar las distancias a él.",
+      "why": "Prepara las bases de trigonometría y simetrías.",
+      "steps": [
+        "Marca el centro O, que permanece fijo.",
+        "Traza el radio desde O hasta cada vértice.",
+        "Mide el mismo ángulo desde O, con el mismo sentido.",
+        "Conserva cada distancia al centro.",
+        "Une imágenes y comprueba longitud y orientación."
+      ],
+      "examples": [
+        {
+          "q": "Gira (2,1) 90° antihorario alrededor de O.",
+          "work": "Regla de 90°: (x,y) → (−y,x).",
+          "answer": "(−1,2)."
+        },
+        {
+          "q": "Gira (3,−2) 180°.",
+          "work": "Regla de media vuelta: (x,y)→(−x,−y).",
+          "answer": "(−3,2)."
+        }
+      ],
+      "trap": "Medir el ángulo desde un vértice en lugar del centro O.",
+      "tip": "En un giro de 90° horario: (x,y)→(y,−x).",
+      "visual": "transforms",
+      "generator": "rotate",
+      "strong": [
+        "coordenadas"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "reflexiones",
+      "title": "Reflexión respecto a un eje",
+      "area": "Geometría",
+      "grades": [
+        "6P",
+        "1E",
+        "2E",
+        "3E"
+      ],
+      "summary": "La reflexión coloca cada punto al otro lado de un eje, a igual distancia perpendicular.",
+      "why": "Relaciona geometría, simetría de funciones y transformaciones en el plano.",
+      "steps": [
+        "Traza el eje de reflexión.",
+        "Desde cada vértice, dibuja una perpendicular hasta el eje.",
+        "Mide la distancia y prolóngala la misma cantidad al otro lado.",
+        "Une los reflejos.",
+        "Comprueba que el eje es mediatriz de cada par de puntos."
+      ],
+      "examples": [
+        {
+          "q": "Refleja (3,2) en el eje Y.",
+          "work": "Respecto al eje Y cambia el signo de x.",
+          "answer": "(−3,2)."
+        },
+        {
+          "q": "Refleja (−1,4) en el eje X.",
+          "work": "Respecto al eje X cambia el signo de y.",
+          "answer": "(−1,−4)."
+        }
+      ],
+      "trap": "Medir distancias en diagonal al eje; se miden perpendicularmente.",
+      "tip": "Respecto a y=x se intercambian las coordenadas (x,y)→(y,x).",
+      "visual": "transforms",
+      "generator": "reflect",
+      "strong": [
+        "coordenadas"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "simetria",
+      "title": "Simetría axial de una figura",
+      "area": "Geometría",
+      "grades": [
+        "5P",
+        "6P",
+        "1E",
+        "2E"
+      ],
+      "summary": "Una figura tiene un eje de simetría si las dos mitades coinciden al doblarla por ese eje.",
+      "why": "Distinguir una propiedad de una figura de una transformación geométrica.",
+      "steps": [
+        "Propón una recta candidata a eje.",
+        "Imagina doblar la figura sobre esa recta.",
+        "Empareja los puntos correspondientes y comprueba distancias.",
+        "Si todos coinciden, la recta es un eje de simetría."
+      ],
+      "examples": [
+        {
+          "q": "¿Cuántos ejes de simetría tiene un cuadrado?",
+          "work": "Dos diagonales y dos rectas que unen puntos medios opuestos.",
+          "answer": "4 ejes."
+        },
+        {
+          "q": "¿Y un rectángulo no cuadrado?",
+          "work": "Las rectas centrales horizontal y vertical.",
+          "answer": "2 ejes."
+        }
+      ],
+      "trap": "Confundir «la figura se puede mover» con «la figura tiene eje de simetría».",
+      "tip": "Para comprobar un eje, observa puntos lejos del centro, no solo el centro de la figura.",
+      "visual": "transforms",
+      "generator": "symmetry",
+      "strong": [
+        "reflexiones"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "jerarquia",
+      "title": "Jerarquía de operaciones",
+      "area": "Álgebra",
+      "grades": [
+        "6P",
+        "1E",
+        "2E",
+        "3E"
+      ],
+      "summary": "El orden de las operaciones evita que una misma expresión tenga varios resultados.",
+      "why": "Es indispensable para operar con fracciones, polinomios y ecuaciones.",
+      "steps": [
+        "Resuelve primero paréntesis.",
+        "Calcula potencias y raíces.",
+        "Multiplicaciones y divisiones de izquierda a derecha.",
+        "Finalmente sumas y restas de izquierda a derecha.",
+        "Relee cada signo antes de cerrar."
+      ],
+      "examples": [
+        {
+          "q": "3+2×5",
+          "work": "Primero 2×5=10, luego 3+10.",
+          "answer": "13."
+        },
+        {
+          "q": "(3+2)×5",
+          "work": "Primero el paréntesis 3+2=5, luego 5×5.",
+          "answer": "25."
+        }
+      ],
+      "trap": "Leer de izquierda a derecha sin priorizar: 3+2×5 no es 25.",
+      "tip": "Una línea por transformación ayuda a detectar dónde cambió el resultado.",
+      "visual": "bars",
+      "generator": "order",
+      "strong": [
+        "enteros-signos",
+        "potencias"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "distributiva",
+      "title": "Propiedad distributiva",
+      "area": "Álgebra",
+      "grades": [
+        "1E",
+        "2E",
+        "3E",
+        "4E",
+        "1B"
+      ],
+      "summary": "La multiplicación se distribuye sobre una suma: a(b+c)=ab+ac.",
+      "why": "Es clave para simplificar expresiones, resolver ecuaciones y expandir productos.",
+      "steps": [
+        "Identifica el factor exterior.",
+        "Multiplícalo por cada término dentro del paréntesis.",
+        "Respeta signos.",
+        "Agrupa términos semejantes cuando proceda."
+      ],
+      "examples": [
+        {
+          "q": "3(x+4)",
+          "work": "3×x+3×4.",
+          "answer": "3x+12."
+        },
+        {
+          "q": "−2(x−3)",
+          "work": "−2×x+(−2)×(−3).",
+          "answer": "−2x+6."
+        }
+      ],
+      "trap": "Multiplicar solo el primer término del paréntesis o perder el signo negativo.",
+      "tip": "Comprueba sustituyendo x=1 en la expresión original y la desarrollada: deben coincidir.",
+      "visual": "bars",
+      "generator": "distribute",
+      "strong": [
+        "jerarquia"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "ecuaciones-1",
+      "title": "Ecuaciones de primer grado",
+      "area": "Álgebra",
+      "grades": [
+        "1E",
+        "2E",
+        "3E",
+        "4E",
+        "1B"
+      ],
+      "summary": "Una ecuación es una igualdad que se cumple para ciertos valores de una incógnita.",
+      "why": "Permite hallar cantidades desconocidas y prepara funciones y sistemas.",
+      "steps": [
+        "Simplifica ambos miembros y aplica distributiva si es necesario.",
+        "Suma o resta lo mismo en ambos miembros.",
+        "Multiplica o divide ambos miembros por la misma cantidad NO nula.",
+        "Despeja x.",
+        "Sustituye el valor para comprobar."
+      ],
+      "examples": [
+        {
+          "q": "3x−6=9",
+          "work": "Suma 6 a ambos lados: 3x=15; divide entre 3.",
+          "answer": "x=5."
+        },
+        {
+          "q": "2(x+1)=10",
+          "work": "Divide ambos miembros entre 2: x+1=5; resta 1.",
+          "answer": "x=4."
+        }
+      ],
+      "trap": "«Pasar» un número al otro lado cambiando signos de memoria sin entender la operación.",
+      "tip": "La balanza es una metáfora: lo que haces a la izquierda debes hacerlo también a la derecha.",
+      "visual": "balance",
+      "generator": "equations",
+      "strong": [
+        "distributiva",
+        "enteros-signos"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "polinomios",
+      "title": "Polinomios y productos notables",
+      "area": "Álgebra",
+      "grades": [
+        "2E",
+        "3E",
+        "4E",
+        "1B",
+        "2B"
+      ],
+      "summary": "Un polinomio combina sumas de potencias enteras no negativas de x con coeficientes.",
+      "why": "Sin álgebra básica no se pueden factorizar cuadráticas ni estudiar funciones.",
+      "steps": [
+        "Identifica los términos y sus grados.",
+        "Suma solo términos semejantes.",
+        "Aplica la distributiva para multiplicar.",
+        "Para factorizar, busca factor común y luego identidades conocidas.",
+        "Comprueba desarrollando de nuevo."
+      ],
+      "examples": [
+        {
+          "q": "Simplifica 2x²+3x−x²+2x.",
+          "work": "Agrupa x²: 2−1=1; agrupa x: 3+2=5.",
+          "answer": "x²+5x."
+        },
+        {
+          "q": "Factoriza x²−4x+3.",
+          "work": "Busca dos números que sumen −4 y multipliquen 3: −1 y −3.",
+          "answer": "(x−1)(x−3)."
+        }
+      ],
+      "trap": "Sumar exponentes al sumar términos: x²+x²=2x², NO x⁴.",
+      "tip": "Después de factorizar, vuelve a multiplicar para comprobar.",
+      "visual": "squares",
+      "generator": "polynomials",
+      "strong": [
+        "distributiva",
+        "potencias"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "rectas",
+      "title": "Rectas, pendiente y cortes",
+      "area": "Funciones y gráficas",
+      "grades": [
+        "2E",
+        "3E",
+        "4E",
+        "1B",
+        "2B"
+      ],
+      "summary": "Una recta y=mx+b tiene pendiente m y corte con el eje Y en (0,b).",
+      "why": "Aprender a leer rectas prepara funciones de cualquier tipo.",
+      "steps": [
+        "Identifica m y b.",
+        "Calcula el corte Y poniendo x=0.",
+        "Para el corte X, pon y=0 y despeja x (si m≠0).",
+        "Elige otro valor x y calcula y.",
+        "Une dos puntos y revisa si la recta crece (m>0), decrece (m<0) o es horizontal (m=0)."
+      ],
+      "examples": [
+        {
+          "q": "y=3x−6",
+          "work": "Corte Y (0,−6). Para y=0: 3x=6, x=2.",
+          "answer": "Cortes (0,−6) y (2,0)."
+        },
+        {
+          "q": "Recta por (1,4) y (3,8)",
+          "work": "m=(8−4)/(3−1)=2. Sustituye (1,4): 4=2+b.",
+          "answer": "y=2x+2."
+        }
+      ],
+      "trap": "Buscar siempre un corte con X: la recta y=1 no corta ese eje.",
+      "tip": "Si no tienes un punto con x=0, calcula m con dos puntos y despeja b sustituyendo uno.",
+      "visual": "line-graph",
+      "generator": "lines",
+      "strong": [
+        "coordenadas",
+        "ecuaciones-1"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "dominio",
+      "title": "Dominio de funciones y restricciones",
+      "area": "Funciones y gráficas",
+      "grades": [
+        "3E",
+        "4E",
+        "1B",
+        "2B"
+      ],
+      "summary": "El dominio son todos los valores de x para los que la expresión está definida en números reales.",
+      "why": "Evita dibujar puntos donde una función no existe.",
+      "steps": [
+        "Si es un polinomio, no hay restricciones: dominio ℝ.",
+        "Si hay fracción algebraica, excluye los valores que anulan el denominador.",
+        "Si hay raíz cuadrada, exige radicando ≥0.",
+        "Combina restricciones y escribe intervalos o conjunto."
+      ],
+      "examples": [
+        {
+          "q": "Dominio de 1/(x²−9)",
+          "work": "x²−9=(x−3)(x+3). El denominador es 0 en ±3.",
+          "answer": "ℝ sin {−3,3}."
+        },
+        {
+          "q": "Dominio de √(3−x)",
+          "work": "El interior de la raíz debe ser ≥0: 3−x≥0 → x≤3.",
+          "answer": "(−∞,3]."
+        }
+      ],
+      "trap": "Confundir dominio con recorrido: el dominio se refiere a los valores que puede tomar x.",
+      "tip": "Empieza preguntando «¿qué operación podría ser imposible?»",
+      "visual": "domain-graph",
+      "generator": "domain",
+      "strong": [
+        "ecuaciones-1",
+        "polinomios"
+      ],
+      "weak": [
+        "rectas"
+      ],
+      "minutes": 25
+    },
+    {
+      "id": "parabolas",
+      "title": "Parábolas: de cero al vértice",
+      "area": "Funciones y gráficas",
+      "grades": [
+        "3E",
+        "4E",
+        "1B",
+        "2B"
+      ],
+      "summary": "La gráfica de y=ax²+bx+c es una parábola; su vértice marca un mínimo o máximo.",
+      "why": "Conecta potencias, coordenadas, simetría, dominio, recorrido, cortes y factorización.",
+      "steps": [
+        "Identifica si a>0 (abre arriba) o a<0 (abre abajo).",
+        "Calcula x del vértice: −b/(2a) y luego sustituye en la función para hallar y.",
+        "Dibuja el eje de simetría x=xv.",
+        "Haz tabla con puntos simétricos a ambos lados del vértice.",
+        "Calcula corte Y con x=0 y cortes X resolviendo y=0.",
+        "Dominio ℝ; recorrido según el vértice y la apertura."
+      ],
+      "examples": [
+        {
+          "q": "y=x²−4x+3",
+          "work": "xv=−(−4)/(2·1)=2; yv=4−8+3=−1; abre arriba.",
+          "answer": "Vértice (2,−1); recorrido [−1,+∞)."
+        },
+        {
+          "q": "y=−x²+4",
+          "work": "Abre abajo, eje x=0, corte Y (0,4). Si y=0, x²=4.",
+          "answer": "Vértice (0,4); cortes X (−2,0) y (2,0)."
+        }
+      ],
+      "trap": "Tomar el dominio como solo el tramo visible del dibujo; una cuadrática tiene dominio ℝ.",
+      "tip": "El vértice es el punto de giro, pero no siempre está en el eje Y: calcula primero su abscisa.",
+      "visual": "parabola",
+      "generator": "parabolas",
+      "strong": [
+        "coordenadas",
+        "potencias",
+        "polinomios",
+        "ecuaciones-1"
+      ],
+      "weak": [
+        "rectas"
+      ],
+      "minutes": 40
+    },
+    {
+      "id": "ecuaciones-2",
+      "title": "Ecuaciones cuadráticas y raíces",
+      "area": "Álgebra",
+      "grades": [
+        "3E",
+        "4E",
+        "1B",
+        "2B"
+      ],
+      "summary": "Resolver ax²+bx+c=0 equivale a encontrar dónde su parábola corta el eje X.",
+      "why": "Une factorización y geometría de forma comprobable.",
+      "steps": [
+        "Escribe la ecuación igualada a cero.",
+        "Busca factorización sencilla cuando sea posible.",
+        "Si no, aplica x=(−b±√(b²−4ac))/(2a).",
+        "Comprueba cada solución sustituyendo.",
+        "Recuerda que si el discriminante es negativo no hay soluciones reales."
+      ],
+      "examples": [
+        {
+          "q": "x²−4x+3=0",
+          "work": "(x−1)(x−3)=0. Un producto es 0 si alguno de sus factores es 0.",
+          "answer": "x=1 o x=3."
+        },
+        {
+          "q": "x²−4=0",
+          "work": "Diferencia de cuadrados: (x−2)(x+2)=0.",
+          "answer": "x=−2 o x=2."
+        }
+      ],
+      "trap": "Olvidar el ± de la fórmula general o dividir entre 2 y no entre 2a.",
+      "tip": "Comprueba los resultados: cada raíz debe producir 0 al sustituir.",
+      "visual": "parabola",
+      "generator": "quadratic",
+      "strong": [
+        "polinomios",
+        "ecuaciones-1",
+        "potencias"
+      ],
+      "weak": [
+        "parabolas"
+      ],
+      "minutes": 25
+    },
+    {
+      "id": "intervalos",
+      "title": "Intervalos y desigualdades",
+      "area": "Álgebra",
+      "grades": [
+        "3E",
+        "4E",
+        "1B",
+        "2B"
+      ],
+      "summary": "Los intervalos describen subconjuntos de la recta real con extremos abiertos o cerrados.",
+      "why": "Necesarios para expresar dominios, recorridos y soluciones de inecuaciones.",
+      "steps": [
+        "Resuelve la desigualdad como una ecuación, manteniendo el sentido.",
+        "Si multiplicas por un número negativo, invierte el signo.",
+        "Dibuja extremo abierto (<,>) o cerrado (≤,≥).",
+        "Escribe el intervalo y combina con ∪ o ∩ según corresponda."
+      ],
+      "examples": [
+        {
+          "q": "x≤3",
+          "work": "Incluye el 3 y todos los menores.",
+          "answer": "(−∞,3]."
+        },
+        {
+          "q": "x>−1",
+          "work": "Excluye −1 e incluye los mayores.",
+          "answer": "(−1,+∞)."
+        }
+      ],
+      "trap": "Poner corchetes con infinito: ±∞ nunca se incluyen como extremos reales.",
+      "tip": "Dibuja la recta primero, y luego tradúcela a notación.",
+      "visual": "number-line",
+      "generator": "intervals",
+      "strong": [
+        "enteros-signos",
+        "ecuaciones-1"
+      ],
+      "weak": [
+        "dominio"
+      ],
+      "minutes": 25
+    },
+    {
+      "id": "radicales",
+      "title": "Raíces cuadradas y radicandos",
+      "area": "Álgebra",
+      "grades": [
+        "2E",
+        "3E",
+        "4E",
+        "1B",
+        "2B"
+      ],
+      "summary": "La raíz cuadrada principal √x existe en números reales solo si x≥0.",
+      "why": "Prepara simplificación algebraica y dominio de funciones con raíces.",
+      "steps": [
+        "Comprueba que el radicando no sea negativo.",
+        "Reconoce cuadrados perfectos.",
+        "Separa factores cuadrados cuando simplifiques.",
+        "Si hay variable, exige radicando ≥0 y resuelve."
+      ],
+      "examples": [
+        {
+          "q": "√81",
+          "work": "9²=81 y se toma la raíz positiva.",
+          "answer": "9."
+        },
+        {
+          "q": "¿Cuándo existe √(5−x)?",
+          "work": "5−x≥0; por tanto x≤5.",
+          "answer": "x≤5."
+        }
+      ],
+      "trap": "Escribir √36=±6: la raíz principal vale 6. Al resolver x²=36 sí hay dos soluciones.",
+      "tip": "Diferencia entre «calcular √a» y «resolver x²=a».",
+      "visual": "squares",
+      "generator": "radicals",
+      "strong": [
+        "potencias",
+        "enteros-signos"
+      ],
+      "weak": [
+        "dominio"
+      ],
+      "minutes": 25
+    },
+    {
+      "id": "pendiente-dos-puntos",
+      "title": "Pendiente a partir de dos puntos",
+      "area": "Funciones y gráficas",
+      "grades": [
+        "3E",
+        "4E",
+        "1B",
+        "2B"
+      ],
+      "summary": "La pendiente es el cambio vertical dividido entre el cambio horizontal de una recta.",
+      "why": "Permite construir una ecuación incluso sin conocer el corte con Y.",
+      "steps": [
+        "Nombra A(x₁,y₁) y B(x₂,y₂).",
+        "Calcula el cambio vertical y₂−y₁.",
+        "Calcula el cambio horizontal x₂−x₁.",
+        "Divide si x₂−x₁ ≠0.",
+        "Sustituye uno de los puntos en y=mx+b y despeja b."
+      ],
+      "examples": [
+        {
+          "q": "P(1,4), Q(3,8)",
+          "work": "m=(8−4)/(3−1)=4/2=2. 4=2·1+b, b=2.",
+          "answer": "y=2x+2."
+        },
+        {
+          "q": "A(0,−2),B(2,4)",
+          "work": "m=(4−(−2))/(2−0)=6/2=3. Con A, b=−2.",
+          "answer": "y=3x−2."
+        }
+      ],
+      "trap": "Restar y de un punto con x del otro: ambos cambios deben respetar el mismo orden.",
+      "tip": "Si las dos x son iguales, la recta es vertical: tiene pendiente no definida.",
+      "visual": "line-graph",
+      "generator": "slope",
+      "strong": [
+        "coordenadas",
+        "rectas",
+        "enteros-signos"
+      ],
+      "weak": [],
+      "minutes": 25
+    },
+    {
+      "id": "recorrido-parabola",
+      "title": "Recorrido y transformaciones de parábolas",
+      "area": "Funciones y gráficas",
+      "grades": [
+        "4E",
+        "1B",
+        "2B"
+      ],
+      "summary": "La forma y=a(x−h)²+k muestra el vértice (h,k), la apertura y el recorrido.",
+      "why": "Hace visible cómo se transforma la gráfica sin memorizar dibujos.",
+      "steps": [
+        "Identifica h y k (ojo al signo dentro del paréntesis).",
+        "Marca el vértice (h,k).",
+        "Si a>0, el recorrido empieza en k; si a<0, termina en k.",
+        "Cambia x en pasos simétricos h−2,h−1,h,h+1,h+2.",
+        "Comprueba que el dominio sigue siendo ℝ."
+      ],
+      "examples": [
+        {
+          "q": "y=(x−2)²−1",
+          "work": "Vértice (2,−1), abre arriba.",
+          "answer": "Recorrido [−1,+∞)."
+        },
+        {
+          "q": "y=−(x+1)²+4",
+          "work": "h=−1,k=4, abre abajo.",
+          "answer": "Recorrido (−∞,4]."
+        }
+      ],
+      "trap": "Leer (x−2)² como desplazamiento dos unidades a la izquierda. Es a la derecha.",
+      "tip": "Si la parábola abre hacia abajo, no existe mínimo global, sino máximo.",
+      "visual": "parabola",
+      "generator": "range",
+      "strong": [
+        "parabolas",
+        "intervalos"
+      ],
+      "weak": [],
+      "minutes": 25
+    }
+  ]
+}
